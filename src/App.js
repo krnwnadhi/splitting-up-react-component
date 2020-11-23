@@ -50,6 +50,7 @@
 import React from 'react'
 import CounterButton from './Components/CounterButton'
 import "./App.css"
+import Color from './Color'
 
 class App extends React.Component {
 
@@ -70,6 +71,8 @@ class App extends React.Component {
           {this.state.show ? 'Hide Counter' : 'Show Counter'}
         </button>
         {this.state.show && <CounterButton />}
+        <br /> <br /> <br />
+        <Color />
       </div>
     )
   }
