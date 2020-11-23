@@ -7,6 +7,7 @@ import React from 'react'
 
 class RegularComponent extends React.PureComponent {
 
+    //Hanya untuk testing jika tidak pakai pureComponent, saat diklik akan lama.
     heavyText() {
         for (let i = 0; i < 800000000; i++) {
             //
